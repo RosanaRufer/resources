@@ -1,12 +1,15 @@
 import LanguageToggle from './components/LanguageToggle.jsx'
 
+import { useLanguage } from './i18n/LanguageContext.jsx'
+
 function App() {
+  const { t } = useLanguage()
   return (
     <>
       <header className="border-bottom bg-white">
         <nav className="container navbar navbar-expand">
           <a className="navbar-brand fw-semibold" href={import.meta.env.BASE_URL}>
-            React Starter
+            {t.brand}
           </a>
           <a className="nav-link" href={`${import.meta.env.BASE_URL}defense`}>
             Defense

@@ -26,6 +26,7 @@ describe('DefensePage', () => {
     expect(markup).not.toContain('Leer menos...')
     expect(markup).toContain('Empezar ejercicio')
     expect(markup).not.toContain('Copiar URL con respuestas')
+    expect(markup).not.toContain('Resetear respuestas')
     expect(markup).not.toContain('>Sí<')
   })
 
@@ -34,6 +35,7 @@ describe('DefensePage', () => {
 
     expect(markup).toContain('Abandonar ejercicio')
     expect(markup).toContain('Copiar URL con respuestas')
+    expect(markup).toContain('Resetear respuestas')
     expect(markup).toContain('>Sí<')
     expect(markup).toContain('aria-pressed="true"')
   })

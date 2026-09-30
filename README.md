@@ -1,7 +1,7 @@
 https://rosanarufer.github.io/resources.github.io/defense/
 
 
-# React Starter
+# Recursos
 
 A basic React app built with Vite and styled with Bootstrap.
 

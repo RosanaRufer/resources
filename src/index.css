@@ -38,3 +38,21 @@ body {
 .defense-card-text {
   text-transform: capitalize;
 }
+
+@keyframes copy-confirmed {
+  0% {
+    transform: scale(1);
+  }
+
+  35% {
+    transform: scale(1.06);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.copy-confirmed {
+  animation: copy-confirmed 0.45s ease;
+}

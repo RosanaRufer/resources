@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import DefenseCard from '../components/DefenseCard.jsx'
 import LanguageToggle from '../components/LanguageToggle.jsx'
@@ -9,6 +9,8 @@ function DefensePage() {
   const { locale, t } = useLanguage()
   const [searchParams, setSearchParams] = useSearchParams()
   const [open, setOpen] = useState(false)
+  const [copied, setCopied] = useState(false)
+  const copiedTimer = useRef(null)
   const exercise = searchParams.get('exercise') === '1'
   const toggleDescriptions = () => setOpen((current) => !current)
 
@@ -30,6 +32,15 @@ function DefensePage() {
 
   function shareResults() {
     navigator.clipboard.writeText(window.location.href)
+    setCopied(true)
+    clearTimeout(copiedTimer.current)
+    copiedTimer.current = setTimeout(() => setCopied(false), 2000)
+  }
+
+  useEffect(() => () => clearTimeout(copiedTimer.current), [])
+
+  function resetAnswers() {
+    setSearchParams({ exercise: '1' }, { replace: true })
   }
 
   return (
@@ -37,7 +48,7 @@ function DefensePage() {
       <header className="border-bottom bg-white">
         <nav className="container navbar navbar-expand">
           <a className="navbar-brand fw-semibold" href={import.meta.env.BASE_URL}>
-            React Starter
+            {t.brand}
           </a>
           <a className="nav-link ms-3" href={`${import.meta.env.BASE_URL}defense`}>
             Defense
@@ -58,9 +69,22 @@ function DefensePage() {
             {exercise ? t.abandonExercise : t.startExercise}
           </button>
           {exercise ? (
-            <button type="button" className="btn btn-sm btn-outline-secondary" onClick={shareResults}>
-              {t.shareResults} 🔗
-            </button>
+            <>
+              <button
+                type="button"
+                className={`btn btn-sm ${copied ? 'btn-success copy-confirmed' : 'btn-outline-secondary'}`}
+                onClick={shareResults}
+              >
+                {copied ? t.linkCopied : `${t.shareResults} 🔗`}
+              </button>
+              <button
+                type="button"
+                className="btn btn-sm btn-danger ms-auto"
+                onClick={resetAnswers}
+              >
+                {t.resetAnswers} 🗑️
+              </button>
+            </>
           ) : null}
         </div>
         <div className="row g-4">
