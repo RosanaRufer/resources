@@ -8,7 +8,7 @@ import DefensePage from './pages/DefensePage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/resources.github.io">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/defense" element={<DefensePage />} />

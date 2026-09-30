@@ -5,7 +5,11 @@ function DefenseCard({ title, subtitle, description, image }) {
 
   return (
     <article className="card h-100 shadow-sm">
-      <img className="card-img-top defense-card-image" src={image} alt="" />
+      <img
+        className="card-img-top defense-card-image"
+        src={`${import.meta.env.BASE_URL}${image}`}
+        alt=""
+      />
       <div className="card-body">
         <p className="text-secondary small mb-1">
           <span className="defense-card-text">{subtitle}</span>

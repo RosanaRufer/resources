@@ -6,10 +6,10 @@ function DefensePage() {
     <>
       <header className="border-bottom bg-white">
         <nav className="container navbar navbar-expand">
-          <a className="navbar-brand fw-semibold" href="/">
+          <a className="navbar-brand fw-semibold" href={import.meta.env.BASE_URL}>
             React Starter
           </a>
-          <a className="nav-link ms-3" href="/defense">
+          <a className="nav-link ms-3" href={`${import.meta.env.BASE_URL}defense`}>
             Defense
           </a>
         </nav>

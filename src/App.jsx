@@ -3,10 +3,10 @@ function App() {
     <>
       <header className="border-bottom bg-white">
         <nav className="container navbar navbar-expand">
-          <a className="navbar-brand fw-semibold" href="/">
+          <a className="navbar-brand fw-semibold" href={import.meta.env.BASE_URL}>
             React Starter
           </a>
-          <a className="nav-link" href="/defense">
+          <a className="nav-link" href={`${import.meta.env.BASE_URL}defense`}>
             Defense
           </a>
           <span className="ms-auto text-secondary small">Built with Bootstrap</span>
