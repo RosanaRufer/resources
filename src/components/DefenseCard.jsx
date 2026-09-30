@@ -23,7 +23,7 @@ function DefenseCard({ title, subtitle, description, image }) {
           </button>
         </p>
         <h2 className="h5 card-title defense-card-text">{title}</h2>
-        {open ? <p className="card-text text-secondary mb-0 defense-card-text">{description}</p> : null}
+        {open ? <p className="card-text text-secondary mb-0">{description}</p> : null}
       </div>
     </article>
   )
