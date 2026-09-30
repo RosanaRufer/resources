@@ -3,11 +3,13 @@ import { createContext, useContext, useMemo, useState } from 'react'
 const messages = {
   es: {
     readMore: 'Leer más...',
+    readLess: 'Leer menos...',
     switchTo: 'English',
     heading: 'Defensas',
   },
   en: {
     readMore: 'Read more...',
+    readLess: 'Read less...',
     switchTo: 'Español',
     heading: 'Defense',
   },

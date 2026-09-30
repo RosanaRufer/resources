@@ -19,7 +19,7 @@ function DefenseCard({ title, subtitle, description, image, open, onToggle }) {
             aria-expanded={open}
             onClick={onToggle}
           >
-            {t.readMore}
+            {open ? t.readLess : t.readMore}
           </button>
         </p>
         <h2 className="h5 card-title defense-card-title">{title}</h2>

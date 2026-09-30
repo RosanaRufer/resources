@@ -14,6 +14,7 @@ describe('DefensePage', () => {
     expect(markup).toContain('Tengo razon')
     expect(markup).toContain('/defense/aparento.png')
     expect(markup).toContain('Leer más...')
+    expect(markup).not.toContain('Leer menos...')
     expect(markup).toContain('English')
   })
 })
