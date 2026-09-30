@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import DefenseCard from '../components/DefenseCard.jsx'
 import cards from '../data/defense.json'
 
 function DefensePage() {
+  const [open, setOpen] = useState(false)
+  const toggleDescriptions = () => setOpen((current) => !current)
+
   return (
     <>
       <header className="border-bottom bg-white">
@@ -20,7 +24,7 @@ function DefensePage() {
         <div className="row g-4">
           {cards.map((card) => (
             <div className="col-md-6 col-lg-4" key={card.title}>
-              <DefenseCard {...card} />
+              <DefenseCard {...card} open={open} onToggle={toggleDescriptions} />
             </div>
           ))}
         </div>

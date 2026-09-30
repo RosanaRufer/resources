@@ -21,6 +21,10 @@ body {
   object-position: center;
 }
 
+.defense-card-title::first-letter {
+  text-transform: uppercase;
+}
+
 .defense-card-text {
   text-transform: capitalize;
 }

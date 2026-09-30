@@ -1,8 +1,4 @@
-import { useState } from 'react'
-
-function DefenseCard({ title, subtitle, description, image }) {
-  const [open, setOpen] = useState(false)
-
+function DefenseCard({ title, subtitle, description, image, open, onToggle }) {
   return (
     <article className="card h-100 shadow-sm">
       <img
@@ -17,12 +13,12 @@ function DefenseCard({ title, subtitle, description, image }) {
             type="button"
             className="btn btn-link btn-sm p-0 ms-2 align-baseline"
             aria-expanded={open}
-            onClick={() => setOpen((current) => !current)}
+            onClick={onToggle}
           >
             Read more...
           </button>
         </p>
-        <h2 className="h5 card-title defense-card-text">{title}</h2>
+        <h2 className="h5 card-title defense-card-title">{title.replaceAll('-', ' ')}</h2>
         {open ? <p className="card-text text-secondary mb-0">{description}</p> : null}
       </div>
     </article>
