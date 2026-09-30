@@ -21,6 +21,16 @@ body {
   object-position: center;
 }
 
+.defense-card-answers .btn {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.defense-card-answers + .defense-card-image {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 .defense-card-title::first-letter {
   text-transform: uppercase;
 }

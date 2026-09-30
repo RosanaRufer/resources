@@ -1,10 +1,37 @@
 import { useLanguage } from '../i18n/LanguageContext.jsx'
 
-function DefenseCard({ title, subtitle, description, image, open, onToggle }) {
+const ANSWERS = ['yes', 'maybe', 'no']
+
+function DefenseCard({
+  title,
+  subtitle,
+  description,
+  image,
+  open,
+  onToggle,
+  exercise,
+  answer,
+  onAnswer,
+}) {
   const { t } = useLanguage()
 
   return (
     <article className="card h-100 shadow-sm">
+      {exercise ? (
+        <div className="btn-group d-flex defense-card-answers" role="group" aria-label={title}>
+          {ANSWERS.map((value) => (
+            <button
+              key={value}
+              type="button"
+              className={`btn btn-sm ${answer === value ? 'btn-secondary' : 'btn-outline-secondary'}`}
+              aria-pressed={answer === value}
+              onClick={() => onAnswer(value)}
+            >
+              {t[value]}
+            </button>
+          ))}
+        </div>
+      ) : null}
       <img
         className="card-img-top defense-card-image"
         src={`${import.meta.env.BASE_URL}${image}`}
