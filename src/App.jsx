@@ -6,6 +6,9 @@ function App() {
           <a className="navbar-brand fw-semibold" href="/">
             React Starter
           </a>
+          <a className="nav-link" href="/defense">
+            Defense
+          </a>
           <span className="ms-auto text-secondary small">Built with Bootstrap</span>
         </nav>
       </header>
