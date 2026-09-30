@@ -17,3 +17,4 @@ npm run dev
 - `npm run build` creates a production build in `dist/`.
 - `npm run preview` serves the production build locally.
 - `npm run lint` checks the source files.
+- `npm test` runs the starter app tests.
