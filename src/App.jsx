@@ -1,3 +1,5 @@
+import LanguageToggle from './components/LanguageToggle.jsx'
+
 function App() {
   return (
     <>
@@ -9,7 +11,7 @@ function App() {
           <a className="nav-link" href={`${import.meta.env.BASE_URL}defense`}>
             Defense
           </a>
-          <span className="ms-auto text-secondary small">Built with Bootstrap</span>
+          <LanguageToggle />
         </nav>
       </header>
 

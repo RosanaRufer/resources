@@ -1,254 +1,590 @@
 [
   {
-    "title": "aparento",
-    "subtitle": "¿Qué quieres que sea?",
-    "description": "Es la adaptación excesiva al otro. La persona intenta ser lo que cree que los demás necesitan: «Dime cómo quieres que sea y me adaptaré». Puede perderse el contacto con «¿qué quiero yo?». Ejemplo: ser de una manera con la pareja, de otra con los padres, de otra en el trabajo y de otra con los amigos, hasta no saber qué desea realmente.",
-    "image": "defense/aparento.png"
+    "id": "aparento",
+    "image": "defense/aparento.png",
+    "es": {
+      "title": "Aparento",
+      "subtitle": "¿Qué quieres que sea?",
+      "description": "Es la adaptación excesiva al otro. La persona intenta ser lo que cree que los demás necesitan: «Dime cómo quieres que sea y me adaptaré». Puede perderse el contacto con «¿qué quiero yo?». Ejemplo: ser de una manera con la pareja, de otra con los padres, de otra en el trabajo y de otra con los amigos, hasta no saber qué desea realmente."
+    },
+    "en": {
+      "title": "I pretend",
+      "subtitle": "What do you want me to be?",
+      "description": "This is excessive adaptation to the other person. They try to become whatever they believe others need: “Tell me how you want me to be and I will adapt.” Contact with “what do I want?” can get lost. Example: one way with a partner, another with parents, another at work, another with friends, until they no longer know what they actually want."
+    }
   },
   {
-    "title": "aplasto-mis-emociones",
-    "subtitle": "No pasa nada",
-    "description": "Es una defensa de negación o minimización emocional. Algo ocurre y duele, pero internamente aparece «no pasa nada». La persona aprende a funcionar como si las cosas no le afectaran, aunque el malestar no esté procesado. Ejemplo: «Me ha dejado, pero me da igual», cuando en realidad está devastado.",
-    "image": "defense/aplasto-mis-emociones.png"
+    "id": "aplasto-mis-emociones",
+    "image": "defense/aplasto-mis-emociones.png",
+    "es": {
+      "title": "Aplasto mis emociones",
+      "subtitle": "No pasa nada",
+      "description": "Es una defensa de negación o minimización emocional. Algo ocurre y duele, pero internamente aparece «no pasa nada». La persona aprende a funcionar como si las cosas no le afectaran, aunque el malestar no esté procesado. Ejemplo: «Me ha dejado, pero me da igual», cuando en realidad está devastado."
+    },
+    "en": {
+      "title": "I crush my emotions",
+      "subtitle": "Nothing’s wrong",
+      "description": "This is emotional denial or minimization. Something happens and it hurts, but inside the response is “nothing’s wrong.” The person learns to function as if things do not affect them, even when the distress is unprocessed. Example: “They left me, but I don’t care,” when they are actually devastated."
+    }
   },
   {
-    "title": "ataco",
-    "subtitle": "A la mínima",
-    "description": "Es una respuesta de lucha preventiva. La persona reacciona antes de que la amenaza esté clara: «Si veo una señal de peligro, ataco». Ejemplo: ante un «¿has podido terminarlo?» neutro, responde «¡Sí! ¿Qué pasa, no te parece suficientemente bueno?». La intensidad es mucho mayor que la situación.",
-    "image": "defense/ataco.png"
+    "id": "ataco",
+    "image": "defense/ataco.png",
+    "es": {
+      "title": "Ataco",
+      "subtitle": "A la mínima",
+      "description": "Es una respuesta de lucha preventiva. La persona reacciona antes de que la amenaza esté clara: «Si veo una señal de peligro, ataco». Ejemplo: ante un «¿has podido terminarlo?» neutro, responde «¡Sí! ¿Qué pasa, no te parece suficientemente bueno?». La intensidad es mucho mayor que la situación."
+    },
+    "en": {
+      "title": "I attack",
+      "subtitle": "At the slightest thing",
+      "description": "This is a pre-emptive fight response. The person reacts before the threat is clear: “If I see a sign of danger, I attack.” Example: a neutral “did you manage to finish it?” gets “Yes! What, you don’t think it’s good enough?” The intensity is far greater than the situation."
+    }
   },
   {
-    "title": "cargo-con-todo",
-    "subtitle": "Yo puedo",
-    "description": "Es la hiperresponsabilidad: la persona asume que tiene que resolver problemas familiares, necesidades ajenas, trabajo, conflictos, emociones de otros y la organización. La creencia implícita es: «Si yo me ocupo de todo, las cosas estarán bajo control». Ejemplo: «Mi pareja está mal, mis padres tienen problemas, en el trabajo falta gente… no puedo descansar porque todo depende de mí».",
-    "image": "defense/cargo-con-todo.png"
+    "id": "cargo-con-todo",
+    "image": "defense/cargo-con-todo.png",
+    "es": {
+      "title": "Cargo con todo",
+      "subtitle": "Yo puedo",
+      "description": "Es la hiperresponsabilidad: la persona asume que tiene que resolver problemas familiares, necesidades ajenas, trabajo, conflictos, emociones de otros y la organización. La creencia implícita es: «Si yo me ocupo de todo, las cosas estarán bajo control». Ejemplo: «Mi pareja está mal, mis padres tienen problemas, en el trabajo falta gente… no puedo descansar porque todo depende de mí»."
+    },
+    "en": {
+      "title": "I carry it all",
+      "subtitle": "I can handle it",
+      "description": "This is hyper-responsibility: the person assumes they must solve family problems, other people’s needs, work, conflict, other people’s emotions, and the organizing. The implicit belief is “if I take care of everything, things will be under control.” Example: “My partner is struggling, my parents have problems, we’re short-staffed at work… I can’t rest because everything depends on me.”"
+    }
   },
   {
-    "title": "controlo-lo-que-siento",
-    "subtitle": "No puedo sentir esto",
-    "description": "Es el intento de regular una emoción mediante prohibición. No es «tengo miedo y voy a aprender a manejarlo», sino «no tengo derecho a sentir miedo». No se puede imponer por voluntad qué emociones están permitidas. Ejemplo: «Estoy enfadado con mi hijo y no debería sentir eso. Tengo que quitarme este sentimiento inmediatamente».",
-    "image": "defense/controlo-lo-que-siento.png"
+    "id": "controlo-lo-que-siento",
+    "image": "defense/controlo-lo-que-siento.png",
+    "es": {
+      "title": "Controlo lo que siento",
+      "subtitle": "No puedo sentir esto",
+      "description": "Es el intento de regular una emoción mediante prohibición. No es «tengo miedo y voy a aprender a manejarlo», sino «no tengo derecho a sentir miedo». No se puede imponer por voluntad qué emociones están permitidas. Ejemplo: «Estoy enfadado con mi hijo y no debería sentir eso. Tengo que quitarme este sentimiento inmediatamente»."
+    },
+    "en": {
+      "title": "I control what I feel",
+      "subtitle": "I must not feel this",
+      "description": "This is an attempt to regulate an emotion by forbidding it. It is not “I am afraid and I will learn to handle it,” but “I have no right to feel afraid.” Feelings cannot be switched off by will. Example: “I am angry with my child and I shouldn’t feel that. I have to get rid of this feeling immediately.”"
+    }
   },
   {
-    "title": "cuido",
-    "subtitle": "Es lo que sé hacer",
-    "description": "Cuidar a los demás se convierte en identidad y seguridad. La persona sabe cuidar, pero quizá no sabe qué necesita ella. Puede ser una forma de sentirse valiosa, necesaria o conectada. Ejemplo: todo el mundo acude a ella cuando tiene problemas, pero cuando ella está mal responde «no importa, ya se me pasará».",
-    "image": "defense/cuido.png"
+    "id": "cuido",
+    "image": "defense/cuido.png",
+    "es": {
+      "title": "Cuido",
+      "subtitle": "Es lo que sé hacer",
+      "description": "Cuidar a los demás se convierte en identidad y seguridad. La persona sabe cuidar, pero quizá no sabe qué necesita ella. Puede ser una forma de sentirse valiosa, necesaria o conectada. Ejemplo: todo el mundo acude a ella cuando tiene problemas, pero cuando ella está mal responde «no importa, ya se me pasará»."
+    },
+    "en": {
+      "title": "I take care of others",
+      "subtitle": "It’s what I know how to do",
+      "description": "Caring for others becomes identity and safety. The person knows how to care, but may not know what they themselves need. It can be a way to feel valuable, necessary, or connected. Example: everyone comes to them with problems, but when they are the one struggling they say “it doesn’t matter, it’ll pass.”"
+    }
   },
   {
-    "title": "desconfio",
-    "subtitle": "Si te fías, te traicionarán",
-    "description": "La creencia protectora es «no confiar me protege de ser traicionado». También bloquea la posibilidad de una confianza segura. Ejemplo: «Mi pareja dice que me quiere, pero seguro que algún día me engañará», y la persona busca pruebas continuamente.",
-    "image": "defense/desconfio.png"
+    "id": "desconfio",
+    "image": "defense/desconfio.png",
+    "es": {
+      "title": "Desconfio",
+      "subtitle": "Si te fías, te traicionarán",
+      "description": "La creencia protectora es «no confiar me protege de ser traicionado». También bloquea la posibilidad de una confianza segura. Ejemplo: «Mi pareja dice que me quiere, pero seguro que algún día me engañará», y la persona busca pruebas continuamente."
+    },
+    "en": {
+      "title": "I distrust",
+      "subtitle": "If you trust, they will betray you",
+      "description": "The protective belief is “not trusting protects me from being betrayed.” It also blocks the possibility of safe trust. Example: “My partner says they love me, but they’ll cheat on me someday,” and the person keeps looking for proof."
+    }
   },
   {
-    "title": "domino",
-    "subtitle": "No seré un perdedor",
-    "description": "El control sirve para evitar impotencia, fracaso o inferioridad: «Tengo que ganar», «tengo que dominar la situación». Perder puede sentirse no como algo puntual, sino como una amenaza a la identidad. Ejemplo: una discusión no puede terminar en «tenemos opiniones diferentes»; tiene que haber un ganador y un perdedor.",
-    "image": "defense/domino.png"
+    "id": "domino",
+    "image": "defense/domino.png",
+    "es": {
+      "title": "Domino",
+      "subtitle": "No seré un perdedor",
+      "description": "El control sirve para evitar impotencia, fracaso o inferioridad: «Tengo que ganar», «tengo que dominar la situación». Perder puede sentirse no como algo puntual, sino como una amenaza a la identidad. Ejemplo: una discusión no puede terminar en «tenemos opiniones diferentes»; tiene que haber un ganador y un perdedor."
+    },
+    "en": {
+      "title": "I dominate",
+      "subtitle": "I will not be a loser",
+      "description": "Control is used to avoid helplessness, failure, or inferiority: “I have to win,” “I have to dominate the situation.” Losing can feel not like a one-off, but like a threat to identity. Example: a disagreement cannot end as “we see it differently”; there has to be a winner and a loser."
+    }
   },
   {
-    "title": "encierro-mis-sentimientos",
-    "subtitle": "No puedo mostrarme",
-    "description": "Es una forma de supresión emocional. La persona siente cosas, pero las mantiene encerradas: no va a llorar, no va a mostrar que le afecta, no va a decir que está triste. Estar en contacto con las emociones no es lo mismo que enterrarlas; la supresión puede dejarlas sin procesar. Ejemplo: recibe una noticia devastadora, responde «estoy bien» y sigue funcionando como si nada.",
-    "image": "defense/encierro-mis-sentimientos.png"
+    "id": "encierro-mis-sentimientos",
+    "image": "defense/encierro-mis-sentimientos.png",
+    "es": {
+      "title": "Encierro mis sentimientos",
+      "subtitle": "No puedo mostrarme",
+      "description": "Es una forma de supresión emocional. La persona siente cosas, pero las mantiene encerradas: no va a llorar, no va a mostrar que le afecta, no va a decir que está triste. Estar en contacto con las emociones no es lo mismo que enterrarlas; la supresión puede dejarlas sin procesar. Ejemplo: recibe una noticia devastadora, responde «estoy bien» y sigue funcionando como si nada."
+    },
+    "en": {
+      "title": "I lock away my feelings",
+      "subtitle": "I can’t show myself",
+      "description": "This is emotional suppression. The person feels things but keeps them locked away: they will not cry, will not show it affects them, will not say they are sad. Being in contact with emotion is not the same as burying it; suppression can leave it unprocessed. Example: they receive devastating news, say “I’m fine,” and carry on as if nothing happened."
+    }
   },
   {
-    "title": "es-culpa-de",
-    "subtitle": "Acuso",
-    "description": "La protección pone el foco del problema fuera de uno mismo. Otras personas pueden hacernos daño de verdad; el sistema defensivo aparece cuando hace falta localizar un culpable porque contactar con la propia vulnerabilidad resulta demasiado difícil. «El problema eres tú, no yo». Ejemplo: «Estoy fatal porque tú nunca haces nada bien», cuando debajo puede haber «Estoy decepcionado, necesito ayuda y no sé cómo pedirla».",
-    "image": "defense/es-culpa-de.png"
+    "id": "es-culpa-de",
+    "image": "defense/es-culpa-de.png",
+    "es": {
+      "title": "Es culpa de",
+      "subtitle": "Acuso",
+      "description": "La protección pone el foco del problema fuera de uno mismo. Otras personas pueden hacernos daño de verdad; el sistema defensivo aparece cuando hace falta localizar un culpable porque contactar con la propia vulnerabilidad resulta demasiado difícil. «El problema eres tú, no yo». Ejemplo: «Estoy fatal porque tú nunca haces nada bien», cuando debajo puede haber «Estoy decepcionado, necesito ayuda y no sé cómo pedirla»."
+    },
+    "en": {
+      "title": "It’s someone else’s fault",
+      "subtitle": "I accuse",
+      "description": "Protection puts the problem outside the self. Other people can genuinely hurt us; the defense appears when a culprit must be found because contacting one’s own vulnerability is too hard. “The problem is you, not me.” Example: “I’m a wreck because you never do anything right,” when underneath there may be “I’m disappointed, I need help, and I don’t know how to ask.”"
+    }
   },
   {
-    "title": "estoy-en-alerta",
-    "subtitle": "Por si acaso",
-    "description": "Es la hipervigilancia. La persona está pendiente de señales de peligro: si cambió el tono, si alguien está enfadado, qué puede ocurrir ahora. El sistema nervioso permanece preparado para detectar amenazas. Ejemplo: llega a casa y su pareja está seria, y enseguida analiza qué ha hecho y si va a empezar una discusión, aunque al final no ocurra nada.",
-    "image": "defense/estoy-en-alerta.png"
+    "id": "estoy-en-alerta",
+    "image": "defense/estoy-en-alerta.png",
+    "es": {
+      "title": "Estoy en alerta",
+      "subtitle": "Por si acaso",
+      "description": "Es la hipervigilancia. La persona está pendiente de señales de peligro: si cambió el tono, si alguien está enfadado, qué puede ocurrir ahora. El sistema nervioso permanece preparado para detectar amenazas. Ejemplo: llega a casa y su pareja está seria, y enseguida analiza qué ha hecho y si va a empezar una discusión, aunque al final no ocurra nada."
+    },
+    "en": {
+      "title": "I am on alert",
+      "subtitle": "Just in case",
+      "description": "This is hypervigilance. The person scans for danger: did the tone change, is someone angry, what might happen next. The nervous system stays ready to detect threat. Example: they get home and their partner looks serious, and immediately analyze what they did and whether a fight is coming, even if nothing happens."
+    }
   },
   {
-    "title": "estoy-en-las-nubes",
-    "subtitle": "Vivo en mi planeta",
-    "description": "Es un alejamiento de la realidad inmediata mediante fantasía, ensimismamiento o idealización. Ese planeta interno es un lugar donde la realidad se transforma en la versión deseada: la familia, el trabajo o la pareja ideales. Ejemplo: en lugar de afrontar los problemas de una relación, vivir en «cuando superemos esto, volveremos a estar como al principio y todo será perfecto».",
-    "image": "defense/estoy-en-las-nubes.png"
+    "id": "estoy-en-las-nubes",
+    "image": "defense/estoy-en-las-nubes.png",
+    "es": {
+      "title": "Estoy en las nubes",
+      "subtitle": "Vivo en mi planeta",
+      "description": "Es un alejamiento de la realidad inmediata mediante fantasía, ensimismamiento o idealización. Ese planeta interno es un lugar donde la realidad se transforma en la versión deseada: la familia, el trabajo o la pareja ideales. Ejemplo: en lugar de afrontar los problemas de una relación, vivir en «cuando superemos esto, volveremos a estar como al principio y todo será perfecto»."
+    },
+    "en": {
+      "title": "I am in the clouds",
+      "subtitle": "I live on my own planet",
+      "description": "This is a withdrawal from immediate reality through fantasy, absorption, or idealization. That inner planet is a place where reality becomes the wished-for version: the ideal family, job, or partner. Example: instead of facing a relationship’s problems, living in “once we get through this, we’ll be like we were at the start and everything will be perfect.”"
+    }
   },
   {
-    "title": "evito",
-    "subtitle": "No quiero mirar",
-    "description": "Es la evitación directa: se esquiva lo que provoca miedo, dolor o incomodidad, incluso con excusas o aplazamientos, porque se cree que no se podrá manejar. Ejemplo: «Quiero enviar el currículum, pero ya lo haré mañana», y mañana pasa a «ya lo haré la semana que viene».",
-    "image": "defense/evito.png"
+    "id": "evito",
+    "image": "defense/evito.png",
+    "es": {
+      "title": "Evito",
+      "subtitle": "No quiero mirar",
+      "description": "Es la evitación directa: se esquiva lo que provoca miedo, dolor o incomodidad, incluso con excusas o aplazamientos, porque se cree que no se podrá manejar. Ejemplo: «Quiero enviar el currículum, pero ya lo haré mañana», y mañana pasa a «ya lo haré la semana que viene»."
+    },
+    "en": {
+      "title": "I avoid",
+      "subtitle": "I don’t want to look",
+      "description": "This is direct avoidance: whatever brings fear, pain, or discomfort is sidestepped, even with excuses and delays, because it feels unmanageable. Example: “I want to send the résumé, but I’ll do it tomorrow,” and tomorrow becomes “I’ll do it next week.”"
+    }
   },
   {
-    "title": "hago-comparaciones",
-    "subtitle": "Lo mío, lo de otros",
-    "description": "La atención se centra en comparar vida, cuerpo, trabajo, relación o logros. Puede llevar tanto a sentirse inferior como a necesitar sentirse superior. Ejemplo: «Él tiene mejor trabajo, más dinero y una pareja mejor que la mía», o lo contrario: «Yo trabajo mucho más que ellos; son unos vagos».",
-    "image": "defense/hago-comparaciones.png"
+    "id": "hago-comparaciones",
+    "image": "defense/hago-comparaciones.png",
+    "es": {
+      "title": "Hago comparaciones",
+      "subtitle": "Lo mío, lo de otros",
+      "description": "La atención se centra en comparar vida, cuerpo, trabajo, relación o logros. Puede llevar tanto a sentirse inferior como a necesitar sentirse superior. Ejemplo: «Él tiene mejor trabajo, más dinero y una pareja mejor que la mía», o lo contrario: «Yo trabajo mucho más que ellos; son unos vagos»."
+    },
+    "en": {
+      "title": "I make comparisons",
+      "subtitle": "Mine versus theirs",
+      "description": "Attention stays on comparing life, body, work, relationship, or achievements. It can lead to feeling inferior or to needing to feel superior. Example: “He has a better job, more money, and a better partner than I do,” or the reverse: “I work much harder than they do; they’re lazy.”"
+    }
   },
   {
-    "title": "idealizo",
-    "subtitle": "Son los mejores…",
-    "description": "Es colocar a alguien en una posición excesivamente positiva o perfecta: es increíble, es exactamente lo que necesitaba, nunca había conocido a alguien así. La idealización puede dar seguridad, esperanza o pertenencia, pero dificulta ver a la otra persona de manera realista. Ejemplo: en pocas semanas, «es la persona perfecta; por fin he encontrado a alguien que nunca me hará daño». Si después hay una decepción, la caída puede ser enorme.",
-    "image": "defense/idealizo.png"
+    "id": "idealizo",
+    "image": "defense/idealizo.png",
+    "es": {
+      "title": "Idealizo",
+      "subtitle": "Son los mejores…",
+      "description": "Es colocar a alguien en una posición excesivamente positiva o perfecta: es increíble, es exactamente lo que necesitaba, nunca había conocido a alguien así. La idealización puede dar seguridad, esperanza o pertenencia, pero dificulta ver a la otra persona de manera realista. Ejemplo: en pocas semanas, «es la persona perfecta; por fin he encontrado a alguien que nunca me hará daño». Si después hay una decepción, la caída puede ser enorme."
+    },
+    "en": {
+      "title": "I idealize",
+      "subtitle": "They are the best…",
+      "description": "This places someone in an excessively positive or perfect position: they are incredible, exactly what was needed, unlike anyone before. Idealization can bring safety, hope, or belonging, but it makes it hard to see the other person realistically. Example: within a few weeks, “they are the perfect person; at last I have found someone who will never hurt me.” If disappointment follows, the fall can be huge."
+    }
   },
   {
-    "title": "la-gente-es-mala",
-    "subtitle": "Soy superior",
-    "description": "Se construye una visión del mundo en la que los demás son peligrosos, inferiores, egoístas o dañinos. Sirve para justificar la distancia: «Si la gente es mala, no necesito confiar en ella». Ejemplo: «No se puede confiar en nadie. Todos terminan aprovechándose de ti».",
-    "image": "defense/la-gente-es-mala.png"
+    "id": "la-gente-es-mala",
+    "image": "defense/la-gente-es-mala.png",
+    "es": {
+      "title": "La gente es mala",
+      "subtitle": "Soy superior",
+      "description": "Se construye una visión del mundo en la que los demás son peligrosos, inferiores, egoístas o dañinos. Sirve para justificar la distancia: «Si la gente es mala, no necesito confiar en ella». Ejemplo: «No se puede confiar en nadie. Todos terminan aprovechándose de ti»."
+    },
+    "en": {
+      "title": "People are bad",
+      "subtitle": "I am superior",
+      "description": "A picture of the world is built in which other people are dangerous, inferior, selfish, or harmful. It justifies distance: “If people are bad, I don’t need to trust them.” Example: “You can’t trust anyone. They all end up taking advantage of you.”"
+    }
   },
   {
-    "title": "lo-puedo-todo",
-    "subtitle": "Me lo deben",
-    "description": "Hay una sensación de derecho adquirido por lo sufrido o por lo realizado: «Después de todo lo que he hecho, me corresponde…». Puede proteger frente a la injusticia, la impotencia o la falta de reconocimiento. Ejemplo: «Después de ayudar a todo el mundo durante años, ahora deberían estar disponibles para mí siempre».",
-    "image": "defense/lo-puedo-todo.png"
+    "id": "lo-puedo-todo",
+    "image": "defense/lo-puedo-todo.png",
+    "es": {
+      "title": "Lo puedo todo",
+      "subtitle": "Me lo deben",
+      "description": "Hay una sensación de derecho adquirido por lo sufrido o por lo realizado: «Después de todo lo que he hecho, me corresponde…». Puede proteger frente a la injusticia, la impotencia o la falta de reconocimiento. Ejemplo: «Después de ayudar a todo el mundo durante años, ahora deberían estar disponibles para mí siempre»."
+    },
+    "en": {
+      "title": "I can do anything",
+      "subtitle": "They owe me",
+      "description": "There is a sense of entitlement earned through suffering or effort: “After everything I have done, I am owed…” It can protect against injustice, helplessness, or lack of recognition. Example: “After helping everyone for years, they should always be available for me now.”"
+    }
   },
   {
-    "title": "me-aferro-a-lo-malo-conocido",
-    "subtitle": "No quiero cambiar",
-    "description": "Es la resistencia al cambio. Aunque una situación sea dolorosa, resulta conocida, y lo conocido puede parecer más seguro que algo nuevo. «Sé que esto es malo, pero al menos sé cómo funciona». Ejemplo: permanecer años en una relación insatisfactoria porque «¿y si fuera sola todavía sería peor?». La protección no dice que esto sea bueno; dice que es conocido.",
-    "image": "defense/me-aferro-a-lo-malo-conocido.png"
+    "id": "me-aferro-a-lo-malo-conocido",
+    "image": "defense/me-aferro-a-lo-malo-conocido.png",
+    "es": {
+      "title": "Me aferro a lo malo conocido",
+      "subtitle": "No quiero cambiar",
+      "description": "Es la resistencia al cambio. Aunque una situación sea dolorosa, resulta conocida, y lo conocido puede parecer más seguro que algo nuevo. «Sé que esto es malo, pero al menos sé cómo funciona». Ejemplo: permanecer años en una relación insatisfactoria porque «¿y si fuera sola todavía sería peor?». La protección no dice que esto sea bueno; dice que es conocido."
+    },
+    "en": {
+      "title": "I cling to the familiar bad",
+      "subtitle": "I don’t want to change",
+      "description": "This is resistance to change. A situation may be painful, but it is known, and the known can feel safer than something new. “I know this is bad, but at least I know how it works.” Example: staying for years in an unsatisfying relationship because “what if being alone were even worse?” The protection does not say this is good; it says this is familiar."
+    }
   },
   {
-    "title": "me-anestesio",
-    "subtitle": "Duele demasiado",
-    "description": "El sistema reconoce que esto supera lo que se puede sentir ahora. La anestesia puede ser emocional —dejar de sentir— o conductual: hacer cosas sin parar, distraerse o consumir sustancias para no sentir o para apartar pensamientos y recuerdos. Ejemplo: después de una ruptura, llenar cada minuto de trabajo, ejercicio, televisión, móvil y actividades para no quedarse a solas con lo que se siente.",
-    "image": "defense/me-anestesio.png"
+    "id": "me-anestesio",
+    "image": "defense/me-anestesio.png",
+    "es": {
+      "title": "Me anestesio",
+      "subtitle": "Duele demasiado",
+      "description": "El sistema reconoce que esto supera lo que se puede sentir ahora. La anestesia puede ser emocional —dejar de sentir— o conductual: hacer cosas sin parar, distraerse o consumir sustancias para no sentir o para apartar pensamientos y recuerdos. Ejemplo: después de una ruptura, llenar cada minuto de trabajo, ejercicio, televisión, móvil y actividades para no quedarse a solas con lo que se siente."
+    },
+    "en": {
+      "title": "I numb myself",
+      "subtitle": "It hurts too much",
+      "description": "The system recognizes that this is more than can be felt right now. Numbing can be emotional — stopping feeling — or behavioral: staying constantly busy, distracting, or using substances so as not to feel or to push thoughts and memories away. Example: after a breakup, filling every minute with work, exercise, television, the phone, and activities so as never to be alone with what is felt."
+    }
   },
   {
-    "title": "me-desconecto",
-    "subtitle": "No puedo",
-    "description": "Aparece la desconexión o disociación. Cuando algo es demasiado intenso, en lugar de luchar o huir, el sistema disminuye la conexión con emociones, cuerpo, recuerdos, entorno y necesidades. Puede sentirse como «estoy aquí, pero es como si no estuviera». Ejemplo: durante una discusión muy intensa, la persona deja de sentir casi nada, mira al vacío y después apenas recuerda cómo fue la conversación.",
-    "image": "defense/me-desconecto.png"
+    "id": "me-desconecto",
+    "image": "defense/me-desconecto.png",
+    "es": {
+      "title": "Me desconecto",
+      "subtitle": "No puedo",
+      "description": "Aparece la desconexión o disociación. Cuando algo es demasiado intenso, en lugar de luchar o huir, el sistema disminuye la conexión con emociones, cuerpo, recuerdos, entorno y necesidades. Puede sentirse como «estoy aquí, pero es como si no estuviera». Ejemplo: durante una discusión muy intensa, la persona deja de sentir casi nada, mira al vacío y después apenas recuerda cómo fue la conversación."
+    },
+    "en": {
+      "title": "I disconnect",
+      "subtitle": "I can’t",
+      "description": "Disconnection or dissociation appears. When something is too intense, instead of fighting or fleeing, the system reduces contact with emotions, body, memories, surroundings, and needs. It can feel like “I’m here, but it’s as if I’m not.” Example: during a very intense argument, the person feels almost nothing, stares into space, and later barely remembers how the conversation went."
+    }
   },
   {
-    "title": "me-encierro",
-    "subtitle": "No quiero salir al mundo",
-    "description": "Es una defensa de aislamiento y de reducir la exposición. El mundo exterior se percibe como demasiado exigente, impredecible o peligroso: «Aquí dentro estoy más seguro». Ejemplo: después de varias experiencias negativas, deja poco a poco de salir, conocer gente o iniciar actividades nuevas.",
-    "image": "defense/me-encierro.png"
+    "id": "me-encierro",
+    "image": "defense/me-encierro.png",
+    "es": {
+      "title": "Me encierro",
+      "subtitle": "No quiero salir al mundo",
+      "description": "Es una defensa de aislamiento y de reducir la exposición. El mundo exterior se percibe como demasiado exigente, impredecible o peligroso: «Aquí dentro estoy más seguro». Ejemplo: después de varias experiencias negativas, deja poco a poco de salir, conocer gente o iniciar actividades nuevas."
+    },
+    "en": {
+      "title": "I shut myself in",
+      "subtitle": "I don’t want to go out into the world",
+      "description": "This defense uses isolation and less exposure. The outside world feels too demanding, unpredictable, or dangerous: “In here I am safer.” Example: after several painful experiences, they gradually stop going out, meeting people, or starting new activities."
+    }
   },
   {
-    "title": "me-engancho-a-los-demas",
-    "subtitle": "Solo no puedo",
-    "description": "La regulación depende mucho de otra persona. Puede haber una necesidad intensa de contacto, aprobación, compañía, tranquilización o confirmación: «Necesito que estés conmigo para poder estar bien». Ejemplo: si la pareja tarda en responder un mensaje, la ansiedad sube rápido y hace falta comprobar una y otra vez que la relación está bien.",
-    "image": "defense/me-engancho-a-los-demas.png"
+    "id": "me-engancho-a-los-demas",
+    "image": "defense/me-engancho-a-los-demas.png",
+    "es": {
+      "title": "Me engancho a los demas",
+      "subtitle": "Solo no puedo",
+      "description": "La regulación depende mucho de otra persona. Puede haber una necesidad intensa de contacto, aprobación, compañía, tranquilización o confirmación: «Necesito que estés conmigo para poder estar bien». Ejemplo: si la pareja tarda en responder un mensaje, la ansiedad sube rápido y hace falta comprobar una y otra vez que la relación está bien."
+    },
+    "en": {
+      "title": "I cling to other people",
+      "subtitle": "I can’t do it alone",
+      "description": "Regulation depends heavily on another person. There can be an intense need for contact, approval, company, reassurance, or confirmation: “I need you with me in order to be okay.” Example: if a partner is slow to reply, anxiety rises quickly and the relationship has to be checked again and again."
+    }
   },
   {
-    "title": "me-exijo",
-    "subtitle": "Debería…",
-    "description": "Es el perfeccionismo basado en reglas: debería poder, debería estar bien, debería hacerlo mejor, no debería sentir esto. El «debería» convierte necesidades y emociones en obligaciones. Ejemplo: «Todo el mundo puede con esto. Yo también debería poder».",
-    "image": "defense/me-exijo.png"
+    "id": "me-exijo",
+    "image": "defense/me-exijo.png",
+    "es": {
+      "title": "Me exijo",
+      "subtitle": "Debería…",
+      "description": "Es el perfeccionismo basado en reglas: debería poder, debería estar bien, debería hacerlo mejor, no debería sentir esto. El «debería» convierte necesidades y emociones en obligaciones. Ejemplo: «Todo el mundo puede con esto. Yo también debería poder»."
+    },
+    "en": {
+      "title": "I demand too much of myself",
+      "subtitle": "I should…",
+      "description": "This is rule-based perfectionism: I should be able to, I should be fine, I should do it better, I shouldn’t feel this. “Should” turns needs and emotions into obligations. Example: “Everyone else can handle this. I should be able to as well.”"
+    }
   },
   {
-    "title": "me-lo-deben",
-    "subtitle": "Lo puedo todo",
-    "description": "Hay una sensación de derecho adquirido por lo sufrido o por lo realizado: «Después de todo lo que he hecho, me corresponde…». Puede proteger frente a la injusticia, la impotencia o la falta de reconocimiento. Ejemplo: «Después de ayudar a todo el mundo durante años, ahora deberían estar disponibles para mí siempre».",
-    "image": "defense/me-lo-deben.png"
+    "id": "me-lo-deben",
+    "image": "defense/me-lo-deben.png",
+    "es": {
+      "title": "Me lo deben",
+      "subtitle": "Lo puedo todo",
+      "description": "Hay una sensación de derecho adquirido por lo sufrido o por lo realizado: «Después de todo lo que he hecho, me corresponde…». Puede proteger frente a la injusticia, la impotencia o la falta de reconocimiento. Ejemplo: «Después de ayudar a todo el mundo durante años, ahora deberían estar disponibles para mí siempre»."
+    },
+    "en": {
+      "title": "They owe me",
+      "subtitle": "I can do anything",
+      "description": "There is a sense of entitlement earned through suffering or effort: “After everything I have done, I am owed…” It can protect against injustice, helplessness, or lack of recognition. Example: “After helping everyone for years, they should always be available for me now.”"
+    }
   },
   {
-    "title": "me-machaco",
-    "subtitle": "Entro en bucle",
-    "description": "Combina autocrítica y rumiación. No solo aparece «lo hice mal»: la mente vuelve una y otra vez a por qué lo hizo, qué idiota fue, que debería haberlo sabido y qué pensará ahora. Ejemplo: después de una conversación, pasa tres horas reconstruyendo cada frase que dijo.",
-    "image": "defense/me-machaco.png"
+    "id": "me-machaco",
+    "image": "defense/me-machaco.png",
+    "es": {
+      "title": "Me machaco",
+      "subtitle": "Entro en bucle",
+      "description": "Combina autocrítica y rumiación. No solo aparece «lo hice mal»: la mente vuelve una y otra vez a por qué lo hizo, qué idiota fue, que debería haberlo sabido y qué pensará ahora. Ejemplo: después de una conversación, pasa tres horas reconstruyendo cada frase que dijo."
+    },
+    "en": {
+      "title": "I beat myself up",
+      "subtitle": "I get stuck in a loop",
+      "description": "This combines self-criticism and rumination. It is not only “I did it badly”: the mind returns again and again to why, how foolish it was, that they should have known, and what the other person thinks now. Example: after a conversation, they spend three hours reconstructing every sentence they said."
+    }
   },
   {
-    "title": "me-oculto",
-    "subtitle": "No te dejo verme",
-    "description": "La protección consiste en no mostrarse de verdad: necesidades, emociones, miedo, tristeza, inseguridad, opiniones o deseos. «Si no muestras quién eres, no pueden utilizar tu vulnerabilidad contra ti». Ejemplo: decir «todo bien» cuando por dentro está destrozado. Puede haber una gran diferencia entre la imagen que presenta y lo que está viviendo.",
-    "image": "defense/me-oculto.png"
+    "id": "me-oculto",
+    "image": "defense/me-oculto.png",
+    "es": {
+      "title": "Me oculto",
+      "subtitle": "No te dejo verme",
+      "description": "La protección consiste en no mostrarse de verdad: necesidades, emociones, miedo, tristeza, inseguridad, opiniones o deseos. «Si no muestras quién eres, no pueden utilizar tu vulnerabilidad contra ti». Ejemplo: decir «todo bien» cuando por dentro está destrozado. Puede haber una gran diferencia entre la imagen que presenta y lo que está viviendo."
+    },
+    "en": {
+      "title": "I hide",
+      "subtitle": "I won’t let you see me",
+      "description": "Protection means not really showing oneself: needs, emotions, fear, sadness, insecurity, opinions, or desires. “If you don’t show who you are, they can’t use your vulnerability against you.” Example: saying “everything’s fine” while falling apart inside. There can be a large gap between the image presented and what is actually being lived."
+    }
   },
   {
-    "title": "me-preocupo",
-    "subtitle": "Y si…",
-    "description": "Es la anticipación ansiosa. La mente intenta controlar el futuro imaginando todas las posibilidades negativas. La preocupación da la sensación de estar haciendo algo para prevenir el peligro, aunque muchas veces no haya ninguna acción posible en ese momento. Ejemplo: tiene una entrevista dentro de una semana y durante los siete días anteriores imagina todas las formas en que podría salir mal.",
-    "image": "defense/me-preocupo.png"
+    "id": "me-preocupo",
+    "image": "defense/me-preocupo.png",
+    "es": {
+      "title": "Me preocupo",
+      "subtitle": "Y si…",
+      "description": "Es la anticipación ansiosa. La mente intenta controlar el futuro imaginando todas las posibilidades negativas. La preocupación da la sensación de estar haciendo algo para prevenir el peligro, aunque muchas veces no haya ninguna acción posible en ese momento. Ejemplo: tiene una entrevista dentro de una semana y durante los siete días anteriores imagina todas las formas en que podría salir mal."
+    },
+    "en": {
+      "title": "I worry",
+      "subtitle": "What if…",
+      "description": "This is anxious anticipation. The mind tries to control the future by imagining every negative possibility. Worry creates the feeling of doing something to prevent danger, even when no action is possible in that moment. Example: an interview is a week away, and for the seven days before it they imagine every way it could go wrong."
+    }
   },
   {
-    "title": "me-quejo",
-    "subtitle": "Todo está mal",
-    "description": "La atención se organiza alrededor de lo negativo. La queja puede dar una sensación de expresión o de control —«si señalo todo lo que está mal, estoy haciendo algo»—, pero puede convertirse en una visión global: «Nada funciona». Ejemplo: un día sale mal y la conclusión termina siendo «mi vida entera es un desastre».",
-    "image": "defense/me-quejo.png"
+    "id": "me-quejo",
+    "image": "defense/me-quejo.png",
+    "es": {
+      "title": "Me quejo",
+      "subtitle": "Todo está mal",
+      "description": "La atención se organiza alrededor de lo negativo. La queja puede dar una sensación de expresión o de control —«si señalo todo lo que está mal, estoy haciendo algo»—, pero puede convertirse en una visión global: «Nada funciona». Ejemplo: un día sale mal y la conclusión termina siendo «mi vida entera es un desastre»."
+    },
+    "en": {
+      "title": "I complain",
+      "subtitle": "Everything is wrong",
+      "description": "Attention organizes around what is negative. Complaint can feel like expression or even control — “if I point out everything that is wrong, I am doing something” — but it can become a global view: “Nothing works.” Example: one bad day ends in the conclusion “my whole life is a disaster.”"
+    }
   },
   {
-    "title": "me-resisto",
-    "subtitle": "No te acerques",
-    "description": "Es una defensa frente a la cercanía o la intervención de otros. La persona necesita distancia para conservar su seguridad o autonomía: «No intentes entrar en mi espacio». Ejemplo: ante «¿quieres contarme qué te pasa?», responde «¡No! Déjame tranquilo». No necesariamente porque no necesite ayuda, sino porque la cercanía activa alarma.",
-    "image": "defense/me-resisto.png"
+    "id": "me-resisto",
+    "image": "defense/me-resisto.png",
+    "es": {
+      "title": "Me resisto",
+      "subtitle": "No te acerques",
+      "description": "Es una defensa frente a la cercanía o la intervención de otros. La persona necesita distancia para conservar su seguridad o autonomía: «No intentes entrar en mi espacio». Ejemplo: ante «¿quieres contarme qué te pasa?», responde «¡No! Déjame tranquilo». No necesariamente porque no necesite ayuda, sino porque la cercanía activa alarma."
+    },
+    "en": {
+      "title": "I resist",
+      "subtitle": "Don’t come closer",
+      "description": "This is a defense against closeness or other people’s intervention. The person needs distance to keep their safety or autonomy: “Don’t try to enter my space.” Example: asked “do you want to tell me what’s wrong?”, they answer “No! Leave me alone.” Not necessarily because they need no help, but because closeness sets off the alarm."
+    }
   },
   {
-    "title": "me-rindo",
-    "subtitle": "Lo dejo",
-    "description": "Aparece el abandono de la lucha, la otra cara de pelear: «No puedo cambiarlo, así que abandono». Puede proteger de la frustración o de la posibilidad de fracasar. Ejemplo: empieza un curso, encuentra dificultades, piensa «esto no es para mí» y lo deja antes de comprobar qué habría pasado si hubiera seguido.",
-    "image": "defense/me-rindo.png"
+    "id": "me-rindo",
+    "image": "defense/me-rindo.png",
+    "es": {
+      "title": "Me rindo",
+      "subtitle": "Lo dejo",
+      "description": "Aparece el abandono de la lucha, la otra cara de pelear: «No puedo cambiarlo, así que abandono». Puede proteger de la frustración o de la posibilidad de fracasar. Ejemplo: empieza un curso, encuentra dificultades, piensa «esto no es para mí» y lo deja antes de comprobar qué habría pasado si hubiera seguido."
+    },
+    "en": {
+      "title": "I give up",
+      "subtitle": "I drop it",
+      "description": "The fight is abandoned, the other side of fighting: “I can’t change it, so I quit.” It can protect against frustration or the possibility of failing. Example: they start a course, hit difficulties, think “this isn’t for me,” and leave before finding out what would have happened if they had continued."
+    }
   },
   {
-    "title": "me-someto",
-    "subtitle": "No quiero conflictos",
-    "description": "Es ceder para mantener la seguridad: «Si cedo, quizá el conflicto desaparezca». Puede costar decir que no, poner límites, expresar desacuerdo o defender necesidades. Ejemplo: «No quería hacerlo, pero dije que sí porque sabía que si decía que no se enfadaría».",
-    "image": "defense/me-someto.png"
+    "id": "me-someto",
+    "image": "defense/me-someto.png",
+    "es": {
+      "title": "Me someto",
+      "subtitle": "No quiero conflictos",
+      "description": "Es ceder para mantener la seguridad: «Si cedo, quizá el conflicto desaparezca». Puede costar decir que no, poner límites, expresar desacuerdo o defender necesidades. Ejemplo: «No quería hacerlo, pero dije que sí porque sabía que si decía que no se enfadaría»."
+    },
+    "en": {
+      "title": "I submit",
+      "subtitle": "I don’t want conflict",
+      "description": "This is giving in to stay safe: “If I yield, maybe the conflict will disappear.” It can be hard to say no, set limits, disagree, or defend needs. Example: “I didn’t want to do it, but I said yes because I knew they would get angry if I said no.”"
+    }
   },
   {
-    "title": "me-voy",
-    "subtitle": "…",
-    "description": "Es la huida o retirada ante algo amenazante, doloroso, conflictivo o demasiado intenso. No tiene por qué ser física: puede ser terminar una conversación, evitar a alguien, abandonar una relación, cambiar de tema, aislarse, dejar algo antes de que salga mal o irse mentalmente. La lógica es: «Si me voy, no tengo que enfrentarme a esto». En el trauma, escapar puede volverse automático porque en algún momento irse fue la mejor protección. Ejemplo: ante una crítica de la pareja, la persona se levanta, se marcha y siente alivio. El problema aparece cuando irse es la única forma de gestionar el malestar.",
-    "image": "defense/me-voy.png"
+    "id": "me-voy",
+    "image": "defense/me-voy.png",
+    "es": {
+      "title": "Me voy",
+      "subtitle": "…",
+      "description": "Es la huida o retirada ante algo amenazante, doloroso, conflictivo o demasiado intenso. No tiene por qué ser física: puede ser terminar una conversación, evitar a alguien, abandonar una relación, cambiar de tema, aislarse, dejar algo antes de que salga mal o irse mentalmente. La lógica es: «Si me voy, no tengo que enfrentarme a esto». En el trauma, escapar puede volverse automático porque en algún momento irse fue la mejor protección. Ejemplo: ante una crítica de la pareja, la persona se levanta, se marcha y siente alivio. El problema aparece cuando irse es la única forma de gestionar el malestar."
+    },
+    "en": {
+      "title": "I leave",
+      "subtitle": "…",
+      "description": "This is flight or withdrawal from something threatening, painful, conflictual, or emotionally too intense. It does not have to be physical: ending a conversation, avoiding someone, leaving a relationship, changing the subject, isolating, quitting before things can go wrong, or mentally leaving the situation. The logic is “if I leave, I don’t have to face this.” In trauma, escape can become automatic because at some point leaving really was the best protection. Example: criticized by a partner, the person stands up, walks out, and feels relief. The problem appears when leaving becomes the only way to manage distress."
+    }
   },
   {
-    "title": "no-hay-salida",
-    "subtitle": "Me cierro puertas",
-    "description": "Aparece el bloqueo de posibilidades. Antes de comprobar si algo puede funcionar, la persona concluye que no puede, que eso no es para ella, que no va a salir bien o que no tiene sentido intentarlo. Es una manera de evitar el riesgo de esperanza, fracaso o decepción. Ejemplo: «Me gustaría cambiar de trabajo, pero con mi edad es imposible», sin haber comprobado que lo sea.",
-    "image": "defense/no-hay-salida.png"
+    "id": "no-hay-salida",
+    "image": "defense/no-hay-salida.png",
+    "es": {
+      "title": "No hay salida",
+      "subtitle": "Me cierro puertas",
+      "description": "Aparece el bloqueo de posibilidades. Antes de comprobar si algo puede funcionar, la persona concluye que no puede, que eso no es para ella, que no va a salir bien o que no tiene sentido intentarlo. Es una manera de evitar el riesgo de esperanza, fracaso o decepción. Ejemplo: «Me gustaría cambiar de trabajo, pero con mi edad es imposible», sin haber comprobado que lo sea."
+    },
+    "en": {
+      "title": "There is no way out",
+      "subtitle": "I close doors on myself",
+      "description": "Possibilities get blocked. Before checking whether something could work, the person concludes they can’t, it isn’t for them, it won’t go well, or there is no point trying. It avoids the risk of hope, failure, or disappointment. Example: “I’d like to change jobs, but at my age it’s impossible,” without having checked that it is."
+    }
   },
   {
-    "title": "no-quiero-recordar",
-    "subtitle": "No abrir esa caja",
-    "description": "Es la evitación de recuerdos dolorosos. La persona puede saber que hay experiencias que le afectan, pero evita acercarse: «Si empiezo a mirar ahí, quizá no pueda manejar lo que encuentre». Apartar recuerdos y emociones puede permitir seguir funcionando, pero esos contenidos no desaparecen. La caja es lo que permanece cerrado porque abrirlo parece demasiado peligroso. Ejemplo: «No quiero hablar de mi infancia. Eso está cerrado» o «sé que debería hablar de aquello, pero prefiero no tocarlo porque luego me encuentro fatal».",
-    "image": "defense/no-quiero-recordar.png"
+    "id": "no-quiero-recordar",
+    "image": "defense/no-quiero-recordar.png",
+    "es": {
+      "title": "No quiero recordar",
+      "subtitle": "No abrir esa caja",
+      "description": "Es la evitación de recuerdos dolorosos. La persona puede saber que hay experiencias que le afectan, pero evita acercarse: «Si empiezo a mirar ahí, quizá no pueda manejar lo que encuentre». Apartar recuerdos y emociones puede permitir seguir funcionando, pero esos contenidos no desaparecen. La caja es lo que permanece cerrado porque abrirlo parece demasiado peligroso. Ejemplo: «No quiero hablar de mi infancia. Eso está cerrado» o «sé que debería hablar de aquello, pero prefiero no tocarlo porque luego me encuentro fatal»."
+    },
+    "en": {
+      "title": "I don’t want to remember",
+      "subtitle": "Don’t open that box",
+      "description": "This is avoidance of painful memories. The person may know some experiences still affect them, but they stay away: “If I start looking there, I might not be able to handle what I find.” Setting memories and emotions aside can make it possible to keep functioning, but those contents do not disappear. The box stays closed because opening it feels too dangerous. Example: “I don’t want to talk about my childhood. That’s closed,” or “I know I should talk about it, but I’d rather not touch it because then I feel awful.”"
+    }
   },
   {
-    "title": "no-te-dejo-entrar",
-    "subtitle": "Me resisto",
-    "description": "La resistencia se dirige sobre todo a la intimidad emocional. La persona puede permitir que otros estén cerca físicamente, pero no emocionalmente: «Puedes estar conmigo, pero no puedes conocerme de verdad». Ejemplo: tiene pareja desde hace años y nunca cuenta sus miedos, necesidades o heridas.",
-    "image": "defense/no-te-dejo-entrar.png"
+    "id": "no-te-dejo-entrar",
+    "image": "defense/no-te-dejo-entrar.png",
+    "es": {
+      "title": "No te dejo entrar",
+      "subtitle": "Me resisto",
+      "description": "La resistencia se dirige sobre todo a la intimidad emocional. La persona puede permitir que otros estén cerca físicamente, pero no emocionalmente: «Puedes estar conmigo, pero no puedes conocerme de verdad». Ejemplo: tiene pareja desde hace años y nunca cuenta sus miedos, necesidades o heridas."
+    },
+    "en": {
+      "title": "I won’t let you in",
+      "subtitle": "I resist",
+      "description": "The resistance is aimed especially at emotional intimacy. Others may be allowed close physically, but not emotionally: “You can be with me, but you cannot really know me.” Example: they have had a partner for years and never tell them their fears, needs, or wounds."
+    }
   },
   {
-    "title": "peleo-todas-las-batallas",
-    "subtitle": "No soporto la injusticia",
-    "description": "La lucha se vuelve generalizada. No solo se defiende de amenazas personales: necesita intervenir ante cualquier cosa que perciba como injusta. Puede haber una sensibilidad legítima, pero la defensa aparece cuando ninguna injusticia puede quedar sin respuesta. Ejemplo: en una reunión alguien hace un comentario injusto y la persona siente que necesariamente tiene que entrar en conflicto.",
-    "image": "defense/peleo-todas-las-batallas.png"
+    "id": "peleo-todas-las-batallas",
+    "image": "defense/peleo-todas-las-batallas.png",
+    "es": {
+      "title": "Peleo todas las batallas",
+      "subtitle": "No soporto la injusticia",
+      "description": "La lucha se vuelve generalizada. No solo se defiende de amenazas personales: necesita intervenir ante cualquier cosa que perciba como injusta. Puede haber una sensibilidad legítima, pero la defensa aparece cuando ninguna injusticia puede quedar sin respuesta. Ejemplo: en una reunión alguien hace un comentario injusto y la persona siente que necesariamente tiene que entrar en conflicto."
+    },
+    "en": {
+      "title": "I fight every battle",
+      "subtitle": "I can’t stand injustice",
+      "description": "The fight becomes generalized. It is not only personal threat: anything perceived as unjust has to be met. Sensitivity to injustice can be genuine, but the defense appears when no injustice can go unanswered. Example: in a meeting someone makes an unfair comment and the person feels they must enter the conflict."
+    }
   },
   {
-    "title": "racionalizo",
-    "subtitle": "Tiene que encajar",
-    "description": "La mente convierte una experiencia emocional en un problema intelectual: «Tiene que haber una explicación lógica». Comprender puede ser positivo; la defensa aparece cuando pensar sustituye por completo a sentir. Ejemplo: explicar la infancia difícil del padre para no contactar con «me dolió muchísimo lo que hizo».",
-    "image": "defense/racionalizo.png"
+    "id": "racionalizo",
+    "image": "defense/racionalizo.png",
+    "es": {
+      "title": "Racionalizo",
+      "subtitle": "Tiene que encajar",
+      "description": "La mente convierte una experiencia emocional en un problema intelectual: «Tiene que haber una explicación lógica». Comprender puede ser positivo; la defensa aparece cuando pensar sustituye por completo a sentir. Ejemplo: explicar la infancia difícil del padre para no contactar con «me dolió muchísimo lo que hizo»."
+    },
+    "en": {
+      "title": "I rationalize",
+      "subtitle": "It has to fit",
+      "description": "The mind turns an emotional experience into an intellectual problem: “There has to be a logical explanation.” Understanding can be useful; the defense appears when thinking completely replaces feeling. Example: explaining a father’s difficult childhood so as not to contact “what he did hurt me enormously.”"
+    }
   },
   {
-    "title": "soy-fuerte",
-    "subtitle": "Peleo",
-    "description": "Es la lucha como estrategia de protección. La fortaleza se convierte en condición para sobrevivir: «No puedo permitirme ser débil». Tras experiencias dolorosas, la vulnerabilidad puede asociarse con peligro, y la persona deja de permitirse tristeza, afecto o fragilidad porque los relaciona con debilidad y con volver a ser herida. Ejemplo: «Yo puedo con todo. No necesito que nadie me cuide».",
-    "image": "defense/soy-fuerte.png"
+    "id": "soy-fuerte",
+    "image": "defense/soy-fuerte.png",
+    "es": {
+      "title": "Soy fuerte",
+      "subtitle": "Peleo",
+      "description": "Es la lucha como estrategia de protección. La fortaleza se convierte en condición para sobrevivir: «No puedo permitirme ser débil». Tras experiencias dolorosas, la vulnerabilidad puede asociarse con peligro, y la persona deja de permitirse tristeza, afecto o fragilidad porque los relaciona con debilidad y con volver a ser herida. Ejemplo: «Yo puedo con todo. No necesito que nadie me cuide»."
+    },
+    "en": {
+      "title": "I am strong",
+      "subtitle": "I fight",
+      "description": "Fighting is the protection strategy. Strength becomes a condition for surviving: “I cannot afford to be weak.” After painful experiences, vulnerability can be linked with danger, and sadness, affection, or fragility are no longer allowed because they are tied to weakness and to being hurt again. Example: “I can handle anything. I don’t need anyone to take care of me.”"
+    }
   },
   {
-    "title": "soy-imprescindible",
-    "subtitle": "Nadie hace las cosas",
-    "description": "Combina hiperresponsabilidad y desconfianza: «Si no lo hago yo, saldrá mal». La persona se vuelve indispensable y a la vez se sobrecarga. Ejemplo: «No voy a delegar esto porque sé que nadie lo hará bien».",
-    "image": "defense/soy-imprescindible.png"
+    "id": "soy-imprescindible",
+    "image": "defense/soy-imprescindible.png",
+    "es": {
+      "title": "Soy imprescindible",
+      "subtitle": "Nadie hace las cosas",
+      "description": "Combina hiperresponsabilidad y desconfianza: «Si no lo hago yo, saldrá mal». La persona se vuelve indispensable y a la vez se sobrecarga. Ejemplo: «No voy a delegar esto porque sé que nadie lo hará bien»."
+    },
+    "en": {
+      "title": "I am indispensable",
+      "subtitle": "Nobody does things properly",
+      "description": "This combines hyper-responsibility and distrust: “If I don’t do it, it will go wrong.” The person becomes indispensable and overloaded at the same time. Example: “I’m not going to delegate this because I know nobody will do it well.”"
+    }
   },
   {
-    "title": "soy-mejor",
-    "subtitle": "Aunque no me lo reconozcan",
-    "description": "La defensa compensa la falta de reconocimiento mediante superioridad: «Soy bueno, aunque los demás no lo vean». Puede proteger frente a la vergüenza, la inferioridad, sentirse ignorado o la necesidad de validación. Ejemplo: «Mi jefe no reconoce mi trabajo porque es incompetente. Pero yo sé que soy el mejor del equipo».",
-    "image": "defense/soy-mejor.png"
+    "id": "soy-mejor",
+    "image": "defense/soy-mejor.png",
+    "es": {
+      "title": "Soy mejor",
+      "subtitle": "Aunque no me lo reconozcan",
+      "description": "La defensa compensa la falta de reconocimiento mediante superioridad: «Soy bueno, aunque los demás no lo vean». Puede proteger frente a la vergüenza, la inferioridad, sentirse ignorado o la necesidad de validación. Ejemplo: «Mi jefe no reconoce mi trabajo porque es incompetente. Pero yo sé que soy el mejor del equipo»."
+    },
+    "en": {
+      "title": "I am better",
+      "subtitle": "Even if they don’t recognize it",
+      "description": "The defense compensates for a lack of recognition with superiority: “I am good, even if others don’t see it.” It can protect against shame, inferiority, feeling ignored, or the need for validation. Example: “My boss doesn’t recognize my work because he’s incompetent. But I know I’m the best on the team.”"
+    }
   },
   {
-    "title": "suelto-las-riendas",
-    "subtitle": "Mis emociones se desbordan",
-    "description": "La protección anterior, el control, deja de funcionar. La persona puede pasar de «tengo que controlarlo todo» a «ya no puedo controlar nada». Las emociones pueden inundarlo todo; tampoco se trata de dejar que tomen todas las decisiones. Regular es estar en contacto con ellas sin quedar arrastrado. Ejemplo: lleva semanas aguantando y funcionando, y al final explota, llora, grita, abandona cosas o toma decisiones impulsivas.",
-    "image": "defense/suelto-las-riendas.png"
+    "id": "suelto-las-riendas",
+    "image": "defense/suelto-las-riendas.png",
+    "es": {
+      "title": "Suelto las riendas",
+      "subtitle": "Mis emociones se desbordan",
+      "description": "La protección anterior, el control, deja de funcionar. La persona puede pasar de «tengo que controlarlo todo» a «ya no puedo controlar nada». Las emociones pueden inundarlo todo; tampoco se trata de dejar que tomen todas las decisiones. Regular es estar en contacto con ellas sin quedar arrastrado. Ejemplo: lleva semanas aguantando y funcionando, y al final explota, llora, grita, abandona cosas o toma decisiones impulsivas."
+    },
+    "en": {
+      "title": "I let go of the reins",
+      "subtitle": "My emotions overflow",
+      "description": "The earlier protection, control, stops working. The person can go from “I have to control everything” to “I can’t control anything anymore.” Emotions can flood everything; the aim is also not to let them make every decision. Regulation means staying in contact with them without being swept away. Example: after weeks of holding on and functioning, they finally explode, cry, shout, drop things, or make impulsive decisions."
+    }
   },
   {
-    "title": "tengo-razon",
-    "subtitle": "Estoy convencido",
-    "description": "Aparece la certeza rígida. La persona necesita estar absolutamente segura de su interpretación: «Yo sé cómo son las cosas». La duda resulta amenazante porque implica perder una sensación de control. Ejemplo: «Sé perfectamente lo que piensa de mí. No necesito preguntárselo».",
-    "image": "defense/tengo-razon.png"
+    "id": "tengo-razon",
+    "image": "defense/tengo-razon.png",
+    "es": {
+      "title": "Tengo razon",
+      "subtitle": "Estoy convencido",
+      "description": "Aparece la certeza rígida. La persona necesita estar absolutamente segura de su interpretación: «Yo sé cómo son las cosas». La duda resulta amenazante porque implica perder una sensación de control. Ejemplo: «Sé perfectamente lo que piensa de mí. No necesito preguntárselo»."
+    },
+    "en": {
+      "title": "I am right",
+      "subtitle": "I am convinced",
+      "description": "Rigid certainty appears. The person needs to be absolutely sure of their interpretation: “I know how things are.” Doubt feels threatening because it means losing a sense of control. Example: “I know exactly what they think of me. I don’t need to ask.”"
+    }
   }
 ]

@@ -1,4 +1,8 @@
+import { useLanguage } from '../i18n/LanguageContext.jsx'
+
 function DefenseCard({ title, subtitle, description, image, open, onToggle }) {
+  const { t } = useLanguage()
+
   return (
     <article className="card h-100 shadow-sm">
       <img
@@ -15,10 +19,10 @@ function DefenseCard({ title, subtitle, description, image, open, onToggle }) {
             aria-expanded={open}
             onClick={onToggle}
           >
-            Read more...
+            {t.readMore}
           </button>
         </p>
-        <h2 className="h5 card-title defense-card-title">{title.replaceAll('-', ' ')}</h2>
+        <h2 className="h5 card-title defense-card-title">{title}</h2>
         {open ? <p className="card-text text-secondary mb-0">{description}</p> : null}
       </div>
     </article>
